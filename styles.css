@@ -5,17 +5,34 @@ body {
   margin: 0;
 }
 
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #00adb5;
+}
+/* NAVBAR */
+
 .link-button {
   display: inline-block;
-  margin: 0 20px 0 30px;
+  margin: 12px 20px 0 30px;
   font-size: 1.3rem;
+  color: #eeeeee;
 }
 
 .nav-bar {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  height: 25px;
+  height: 50px;
+  background-color: #222831;
+  margin-bottom: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-links ul li {
+  border-left: 2px solid #00adb5;
+  padding-left: 4px;
 }
 
 ul {
@@ -23,10 +40,17 @@ ul {
 }
 
 .logo {
-  font-size: 20px;
-
+  margin-top: 7px;
+  font-size: 2rem;
+  color: #eeeeee;
   text-align: center;
 }
+
+.logo:hover {
+  cursor: pointer;
+}
+
+/*  NAVBAR END */
 
 main {
   height: 100vh;
@@ -40,6 +64,13 @@ footer {
 
 /* INDEX.HTML */
 
+<<<<<<< HEAD
+=======
+.main-page {
+  padding-top: 5rem;
+}
+
+>>>>>>> e3b8d45 (finish styling index.html)
 .landing-page,
 .stack-container {
   width: 50%;
@@ -48,7 +79,11 @@ footer {
 }
 
 .landing-page h2 {
+<<<<<<< HEAD
   font-size: 4.5rem;
+=======
+  font-size: 3rem;
+>>>>>>> e3b8d45 (finish styling index.html)
   font-weight: 400;
   line-height: 1.5;
   max-width: 50vw;
@@ -57,7 +92,11 @@ footer {
 #more-info {
   margin-top: 30px;
   line-height: 0.3;
+<<<<<<< HEAD
   font-size: 1.5rem;
+=======
+  font-size: 1.2rem;
+>>>>>>> e3b8d45 (finish styling index.html)
   font-family: Cascadia Code, monospace;
 }
 
@@ -86,4 +125,12 @@ footer {
   margin-top: 19px;
   width: 30%;
   margin-left: 40px;
+}
+.progress-bar-color {
+  background-color: #00adb5 !important;
+}
+
+/*FOOTER*/
+.social-icons a {
+  text-decoration: none;
 }
