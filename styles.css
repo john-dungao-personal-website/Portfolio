@@ -139,6 +139,15 @@ footer {
 /* PORTFOLIO END */
 
 /*FOOTER*/
+
+footer {
+  background-color: #222831;
+}
+.footer-content p {
+  color: #eeeeee;
+}
+
 .social-icons a {
   text-decoration: none;
+  margin: 0.5rem;
 }
