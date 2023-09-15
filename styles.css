@@ -6,8 +6,9 @@ body {
 }
 
 .underline {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   text-decoration-color: #00adb5;
+  border-bottom: 0.1rem solid #00adb5;
 }
 /* NAVBAR */
 
@@ -118,6 +119,24 @@ footer {
 .progress-bar-color {
   background-color: #00adb5 !important;
 }
+
+/* ABOUT.html */
+
+.about-main {
+  background-image: url(https://blog.thomasnet.com/hubfs/shutterstock_774749455.jpg);
+  background-size: cover;
+}
+
+/* ABOUT END */
+
+/* PORTFOLIO.HTML */
+
+.portfolio-main {
+  background-size: cover;
+  background-image: url(https://blog.thomasnet.com/hubfs/shutterstock_774749455.jpg);
+}
+
+/* PORTFOLIO END */
 
 /*FOOTER*/
 .social-icons a {
