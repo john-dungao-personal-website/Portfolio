@@ -64,13 +64,10 @@ footer {
 
 /* INDEX.HTML */
 
-<<<<<<< HEAD
-=======
 .main-page {
   padding-top: 5rem;
 }
 
->>>>>>> e3b8d45 (finish styling index.html)
 .landing-page,
 .stack-container {
   width: 50%;
@@ -79,11 +76,7 @@ footer {
 }
 
 .landing-page h2 {
-<<<<<<< HEAD
-  font-size: 4.5rem;
-=======
   font-size: 3rem;
->>>>>>> e3b8d45 (finish styling index.html)
   font-weight: 400;
   line-height: 1.5;
   max-width: 50vw;
@@ -92,11 +85,7 @@ footer {
 #more-info {
   margin-top: 30px;
   line-height: 0.3;
-<<<<<<< HEAD
-  font-size: 1.5rem;
-=======
   font-size: 1.2rem;
->>>>>>> e3b8d45 (finish styling index.html)
   font-family: Cascadia Code, monospace;
 }
 
