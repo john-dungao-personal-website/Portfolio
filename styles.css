@@ -39,10 +39,13 @@ footer {
 }
 
 /* INDEX.HTML */
+.main-header {
+  font-size: 4.5rem;
+}
 .main-section {
   width: 50%;
   text-align: center;
-  margin: 0 auto;
+  margin: 20px auto 0 auto;
 }
 
 .main-section ul {
@@ -52,9 +55,22 @@ footer {
 .main-section ul li {
   margin: 10px 0;
 }
+.main-section h2 {
+  margin-top: 30px;
+}
 
 .lang-icon {
   width: 50px;
   height: 50px;
   display: inline-block;
+  margin-bottom: 25px;
+}
+.progress-container {
+  display: flex;
+  justify-content: center;
+}
+.progress {
+  margin-top: 19px;
+  width: 30%;
+  margin-left: 40px;
 }
