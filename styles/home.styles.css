@@ -1,0 +1,63 @@
+/* INDEX.HTML */
+
+.main-page {
+  padding-top: 5rem;
+}
+
+.landing-page,
+.stack-container {
+  width: 50%;
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
+
+.landing-page h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 50vw;
+}
+
+#more-info {
+  margin-top: 30px;
+  line-height: 0.3;
+  font-size: 1.2rem;
+  font-family: Cascadia Code, monospace;
+}
+
+.stack-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+.stack-container ul li {
+  margin: 10px 0;
+}
+.stack-container h2 {
+  margin-top: 30px;
+}
+
+.lang-icon {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+.progress-container {
+  display: flex;
+  justify-content: center;
+}
+.progress {
+  margin-top: 19px;
+  width: 30%;
+  margin-left: 40px;
+}
+.progress-bar-color {
+  background-color: #00adb5 !important;
+}
+
+/* ABOUT.html */
+
+/* .about-main {
+  background-image: url(https://blog.thomasnet.com/hubfs/shutterstock_774749455.jpg);
+  background-size: cover;
+} */
