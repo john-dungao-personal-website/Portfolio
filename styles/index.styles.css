@@ -46,6 +46,9 @@
   display: flex;
   justify-content: center;
 }
+.icons-header {
+  text-align: center;
+}
 .progress {
   margin-top: 19px;
   width: 30%;
