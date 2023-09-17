@@ -17,4 +17,41 @@
   .logo-container {
     margin-top: 1.5rem;
   }
+
+  .main-page {
+    padding-top: 10px;
+    width: 100%;
+  }
+  .landing-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .landing-page-name {
+    font-size: 3rem !important;
+    text-align: center;
+    margin: auto;
+  }
+
+  .landing-page-sub-info {
+    margin-top: 1rem !important;
+    font-size: 1.5rem !important;
+    margin: auto;
+  }
+
+  #more-info {
+    font-size: 0.8rem;
+  }
+  .icons-header {
+    margin-bottom: -2rem;
+    text-align: center;
+  }
+
+  .stack-container {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
