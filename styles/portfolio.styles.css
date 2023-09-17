@@ -1,6 +1,48 @@
 .portfolio-main {
   border: 1px solid black;
-  width: 90vw;
+  width: 100vw;
   height: 90vh;
   margin: auto;
+  padding-top: 3rem;
+}
+.portfolio-container {
+  width: 95vw;
+  height: 34%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid #00adb5;
+}
+.portfolio-info-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.portfolio-title {
+  text-align: center;
+  /* font-size: 4rem; */
+}
+
+.portfolio-container img {
+  height: 80%;
+  margin: auto;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  grid-row: 1 / span 2;
+}
+.icons-container img {
+  width: 30%;
+  height: 30%;
+  
+  /* margin: 1.5rem; */
+}
+
+.portfolio-info {
+  grid-column: 2 / span 2;
+  margin: auto auto auto -6rem;
+  /* font-size: 1.5rem; */
 }
