@@ -1,7 +1,7 @@
 @media (max-width: 379px) {
   .nav-bar {
-    height: 15vh;
-    overflow: hidden;
+    height: 20%;
+    overflow: auto;
   }
   .nav-links ul {
     display: flex;
@@ -26,4 +26,6 @@
     height: 50%;
     margin-right: 30vw;
   }
+
+  .a
 }
