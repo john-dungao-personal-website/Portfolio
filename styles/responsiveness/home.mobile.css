@@ -1,4 +1,4 @@
-@media (max-width: 379px) {
+@media (max-width: 414px) {
   .nav-bar {
     height: 20%;
     overflow: auto;
@@ -27,5 +27,5 @@
     margin-right: 30vw;
   }
 
-  .a
+  .a;
 }
