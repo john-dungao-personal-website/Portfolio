@@ -52,8 +52,8 @@ html {
 }
 .icons-container img {
   margin-bottom: 2rem;
-  width: 50%;
-  height: 40%;
+  width: auto;
+  height: auto;
   margin-left: 1rem;
 
   /* margin: 1.5rem; */
@@ -65,11 +65,12 @@ html {
 }
 
 .portfolio-info {
-  margin-top: -2.5rem;
+  margin-top: fit-content;
+
   grid-column: 2 / span 2;
   grid-row: 2 span 2;
   font-size: 1.3rem;
-  width: 60%;
+  width: fit-content;
 
   /* font-size: 1.5rem; */
 }
