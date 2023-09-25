@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Custom Styles -->
     <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="stylesheet" href="styles/index.styles.css" />
+    <link rel="stylesheet" href="styles/contact.styles.css" />
     <!-- Mobile Responsiveness -->
     <link rel="stylesheet" href="styles/responsiveness/home.tablet.css"" />
     <link rel="stylesheet" href="styles/responsiveness/home.mobile.css" />
@@ -48,6 +48,66 @@
         </ul>
       </div>
     </nav>
-    <h1>Contact</h1>
+    <div class="contact-container">
+      <h1 class="contact-heading">
+        My inbox is open, <br />
+        Get in touch 👋
+      </h1>
+      <form class="contact-form" action="">
+        <div class="form-group">
+          <label for="fname"
+            >First Name <span class="red-asterisk">*</span></label
+          >
+          <input
+            type="text"
+            class="contact-name"
+            name="fname"
+            id="name"
+            placeholder="Name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="lname"
+            >Last Name <span class="red-asterisk">*</span></label
+          >
+          <input
+            type="text"
+            class="contact-name"
+            name="lname"
+            id="name"
+            placeholder="Name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email <span class="red-asterisk">*</span></label>
+          <input
+            type="email"
+            class="contact-email"
+            name="email"
+            id="email"
+            placeholder="Email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="number">Number <span class="red-asterisk">*</span></label>
+          <input
+            type="number"
+            class="contact-number"
+            name="number"
+            id="number"
+          />
+        </div>
+
+        <textarea
+          class="form-msg"
+          name="message"
+          id="message"
+          cols="10"
+          rows="10"
+          placeholder="Feel free to send me a message..."
+        ></textarea>
+        <input class="form-submit" type="button" value="submit" />
+      </form>
+    </div>
   </body>
 </html>
