@@ -53,4 +53,35 @@
 }
 
 .form-submit {
+  background-color: #222831;
+  color: #fff;
+  border-radius: 12px;
+  border-bottom: 2px solid #00adb5;
+}
+
+.form-submit {
+  margin-top: 4em;
+}
+
+.hidden {
+  display: none;
+  position: absolute;
+  top: -100;
+  left: -100;
+}
+
+.success {
+  text-align: center;
+  margin-top: 30em;
+}
+
+.success-btn {
+  background-color: #222831;
+  color: #fff;
+  border-radius: 12px;
+  border-bottom: 2px solid #00adb5;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
 }
