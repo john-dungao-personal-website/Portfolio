@@ -1,7 +1,7 @@
 .contact-container {
   display: flex;
   flex-direction: column;
-  padding: 100px 0;
+  /* padding: 100px 0; */
   width: 40%;
   height: 75%;
   margin: auto;
@@ -72,7 +72,7 @@
 
 .success {
   text-align: center;
-  margin-top: 30em;
+  /* margin-top: 30em; */
 }
 
 .success-btn {
