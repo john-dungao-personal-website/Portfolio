@@ -1,12 +1,24 @@
-html {
-  overflow: hidden;
+.lang img{
+  width: 45px!important;
+  height: auto!important;
+}
+.project-image-container img{
+  width: 100%;
+  aspect-ratio: 1/1;
+  transition: all 500ms;
+}
+.project-image-container img:hover{
+  box-shadow: 2px 5px 25px rgba(0, 0, 0, 0.2);
+}
+.card{
+  height: 34%;
 }
 .portfolio-main {
   width: 100%;
   height: 91.5vh;
   margin: auto;
   overflow: hidden;
-  padding-top: 3rem;
+  padding: 1rem 0rem 4rem 0rem;
   background-color: #f5f5f5;
 }
 .portfolio-container {
@@ -18,15 +30,17 @@ html {
   border-bottom: 2px solid #00adb5;
 }
 .portfolio-info-container {
-  display: grid;
+  max-width: 60%;
+  /* display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr; */
 }
 .portfolio-title {
   text-align: center;
   font-size: 2rem;
   margin-top: 1rem;
   color: #393e46;
+  cursor: pointer;
 }
 
 .portfolio-title:hover {
@@ -36,8 +50,7 @@ html {
 }
 
 .portfolio-img {
-  height: 80%;
-  margin: 1rem auto auto auto;
+  max-height: 100%;
   border-radius: 6%;
   cursor: pointer;
 }
